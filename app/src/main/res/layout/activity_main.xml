@@ -7,10 +7,17 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
-    <com.xwc.customcontrol.BGLinearLayout
+    <com.xwc.customcontrol.ccbg.BGLinearLayout
         android:id="@+id/bgl_layout"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.xwc.customcontrol.PointImage
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"/>
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/bgl_layout"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/batman"/>
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.xwc.customcontrol;
+package com.xwc.customcontrol.ccbg;
 
 import android.content.Context;
 import android.graphics.Canvas;
